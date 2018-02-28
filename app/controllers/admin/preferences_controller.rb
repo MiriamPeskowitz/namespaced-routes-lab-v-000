@@ -17,3 +17,6 @@ class Admin::PreferencesController < ApplicationController
 	
 end
 
+# Ask Luisa how this would be worked out -- after a user submits this form, what would happen, it would go to... have to create the next admin/preferences view? Load it to the data base? not as new, but as ???
+# also ask Luisa, first_or_create vs find_or_create. Looked it up but still not clear. 
+
