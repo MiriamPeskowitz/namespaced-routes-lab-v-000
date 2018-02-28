@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :songs
 
   namespace :admin do
-    resources :preferences #add only: [:index, :anything else? ]
+    resources :preferences, only: [:index]
   end
 
 end
